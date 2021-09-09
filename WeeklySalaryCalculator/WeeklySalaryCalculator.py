@@ -9,4 +9,4 @@ grossSalary = hoursInput * wage
 estTax = grossSalary * tax
 netSalary = grossSalary - tax
 print('Your Net Salary for this week is' , netSalary, '!')
-print('Thank you!')
+exit = input('Thank you! Please press enter to exit.')
